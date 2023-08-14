@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Todo2409063.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Todo2409063"
+    xmlns:views="clr-namespace:Todo2409063.Views"
+    xmlns:models="clr-namespace:Todo2409063.Models"
+    xmlns:data="clr-namespace:Todo2409063.Data"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate  views:TodoListPage}"
+        Route="TodoList"/>
+
+</Shell>
